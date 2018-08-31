@@ -1,8 +1,8 @@
 
 
-const exprensesReducerDefaultState = [];
+const expensesReducerDefaultState = [];
 
-export default (state = exprensesReducerDefaultState, action) =>{
+export default (state = expensesReducerDefaultState, action) =>{
   switch (action.type){
     case 'ADD_EXPENSE':
       return [
