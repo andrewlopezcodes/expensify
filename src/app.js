@@ -11,10 +11,10 @@ import './styles/styles.scss';
 
 const store = configureStore();
 
-store.dispatch(addExpense({ description: 'Water Bill', amount: 4500, createdAt: 0}));
+store.dispatch(addExpense({ description: 'Water Bill', amount: 4500, createdAt: 1000}));
 
-store.dispatch(addExpense({ description: 'Gas Bill', amount: 2100, createdAt: -5000}));
-store.dispatch(addExpense({ description: 'Rent', amount: 109500}));
+store.dispatch(addExpense({ description: 'Gas Bill', amount: 6200, createdAt: -5000}));
+store.dispatch(addExpense({ description: 'Rent', amount: 109500, createdAt: 4000}));
 
 
 const state = store.getState();
