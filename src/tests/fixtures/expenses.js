@@ -7,7 +7,7 @@ export default [{
   description: 'Car',
   note: '',
   amount: 1500000,
-  createdAt: 0
+  createdAt: 60000
 }, {
   id: '2',
   description: 'Rent',
